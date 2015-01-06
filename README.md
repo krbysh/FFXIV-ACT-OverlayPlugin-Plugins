@@ -1,4 +1,4 @@
-# Nested Plugins for OverlayPlugin
+# Plugins for OverlayPlugin
 
 This is a set of plugins that will work with ACT's OverlayPlugin(https://github.com/RainbowMage/OverlayPlugin)
 
