@@ -35,13 +35,13 @@ namespace ACTv3Plugins
 			CombatantData.ExportVariables.Add(
 				"NameEn",
 			new CombatantData.TextExportFormatter("NameEn", "Name En", "name in english", (data, extra) => {
-					string name = data.GetColumnByName("Name");
-					if(!(isOneByteChar(name))){
-					 for( int i=0;i<Pet.Length-1;i++ ){
-						 if(name.Contains(Pet[i,0])) return name.Replace(Pet[i,0],Pet[i,1]);
-				 	}
-				 }
-				 return name;
+				string name = data.GetColumnByName("Name");
+				if(!(isOneByteChar(name))){
+					for( int i=0;i<Pet.Length-1;i++ ){
+						if(name.Contains(Pet[i,0])) return name.Replace(Pet[i,0],Pet[i,1]);
+					}
+				}
+				return name;
 				}));
 			ActGlobals.oFormActMain.ValidateLists();
 			statusLabel.Text = "Initialized.";
