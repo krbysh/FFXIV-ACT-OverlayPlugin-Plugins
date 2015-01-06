@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 // Advanced Combat Tracker - mini parse window用Plugin
-// NameEn:キャラクター名のペットも含めて英語で出力
+// NameEn: 日本語クライアント利用時に、キャラクター名(ペット含む)を英語で出力
 [assembly: AssemblyTitle("Mini Parse Pets' Name in English")]
 [assembly: AssemblyVersion("1.0.0.0")]
 
