@@ -7,10 +7,15 @@ OverlayPlugin は素晴らしいプラグインで、基本機能に追加する
 
 他の ACT のプラグインと同様に、プラグインを追加することで、OverlayPlugin の miniparse の UI や UX を変更することができます。
 
-### PetEnPlugin.cs
-日本語クライアント利用時に、ペットがカタカナで表示されてしまうため、英語表示に変更する。
-miniparse.html にて、{NameEn} で指定可能。
-
-### NameMosaPlugin.cs
-キャラクター名がマスクされるような新定義を追加する。
-miniparse.html にて、{NameMosa} で指定可能。
+### Fabric
+Fabric
+### AP
+AP
+### Networking
+Networking
+### Physical Domain
+Physical Domain
+### L2Out
+L2Out
+### L3Out
+L3Out
